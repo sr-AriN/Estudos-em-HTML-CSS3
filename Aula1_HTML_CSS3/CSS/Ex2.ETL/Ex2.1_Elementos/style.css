@@ -1,0 +1,40 @@
+.body{
+    background-color: #f7f7f7;
+}
+
+.photo{
+    /*Arredonda a borda da imagem*/
+    border-radius: 50%;
+    /*O tipo da borda pode ser solido, tracejado ou pontilhado*/
+    border: 1px solid #5d5d5d;
+}
+
+#title, .subtitle, .post_title{
+    color: #5d5d5d;
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    /*A boa pratica diz que se deve dar margem apenas em uma direção, ou em baixo ou em cima*/
+    margin-bottom: 15px;
+}
+
+.post{
+    background-color: white;
+    /*Grossura da linha*/
+    padding: 15px;
+    border: 3px solid #5d5d5d;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_image{
+    margin-bottom: 15px;
+}
