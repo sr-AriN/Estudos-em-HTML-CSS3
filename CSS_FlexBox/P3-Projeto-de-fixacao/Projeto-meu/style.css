@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-container{
+    margin-top: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phone img{
+    width: 50rem;
+    margin-right: 3.4rem;
+}
+
+.instagram-log{
+    padding-top: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 43%;
+}
+
+.group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    border: 1px solid lightgrey;
+}
+
+.g1{
+    padding-top: 2rem;
+    height: 42.5rem;
+}
+
+.instagram-logo{
+    height: 5.3rem;
+    margin-bottom: 4rem;
+}
+
+.login{
+    background-color: #fafafa;
+    border: 1px solid #cfcfcf;
+    border-radius: 4%;
+    padding: 0.8rem;
+    height: 4rem;
+    width: 28.5rem;
+    font-size: 17px;
+    margin-bottom: 0.7rem;
+}
+
+.button-entrar{
+    background-color: #b2dffc;
+    color: white;
+    text-align: center;
+    width: 28.5rem;
+    height: 3rem;
+    display: block;
+    line-height: 3rem;
+    margin: 1rem;
+    border-radius: 4%;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.g1 p{
+    font-size: 18px;
+    margin: 1rem;
+}
+
+.g1 div{
+    margin-top: 1.7rem;
+}
+
+.facebook-logo{
+    height: 1.8rem;
+}
+
+.facebook-login{
+    font-size: 20px;
+    color: #3c5a99;
+}
+
+.senha-esquecida{
+    margin-top: 2rem;
+    font-size: 18px;
+    color: #4f376bcc;
+}
+
+.g2{
+    margin-top: 1rem;
+    height: 7.3rem;
+}
+
+.group:nth-child(1){
+    min-height: 19ren;
+}
+
+.sem-conta{
+    color: #a0a0a0;
+    font-size: 22px;
+}
+
+.criar-conta{
+    font-size: 22px;
+    color: #0095f6;
+}
+
+.baixar-o-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.baixar-app{
+    font-size: 22px;
+}
+
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.app-download{
+    margin-right: 1rem;
+    height: 4.2rem;
+    width: 14rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1){
+    background-image: url('images/apple-button.png');
+}
+
+.app-download:nth-child(2){
+    background-image: url('images/googleplay-button.png');
+}
