@@ -8,20 +8,29 @@
 }
 
 body{
-    width: 100%;
+    width: auto;
     min-height: 100vh;
     background-color: #fafafa;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+.flex-container{
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    flex-wrap: wrap;
 }
 
 .instagram-container{
-    margin-top: 1.2rem;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 22.5rem;
 }
 
 .instagram-phone{
@@ -96,16 +105,20 @@ body{
 }
 
 .g1 div{
+    align-items: center;
     margin-top: 1.7rem;
+    display: flex;
 }
 
 .facebook-logo{
     height: 1.8rem;
+    margin-right: 1rem;
 }
 
 .facebook-login{
     font-size: 20px;
     color: #3c5a99;
+    font-weight: 500;
 }
 
 .senha-esquecida{
@@ -124,7 +137,7 @@ body{
 }
 
 .sem-conta{
-    color: #a0a0a0;
+    color: #1f1f1f;
     font-size: 22px;
 }
 
@@ -167,4 +180,71 @@ body{
 
 .app-download:nth-child(2){
     background-image: url('images/googleplay-button.png');
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: auto;
+    flex-direction: column;
+    width: auto;
+}
+.tags{
+    width: 50%;
+    margin-top: 3.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.tags a{
+    font-size: 18px;
+    color: #9c9c9c;
+    padding: 0.7rem;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+}
+
+.text-config{
+    font-size: 18px;
+    color: #9c9c9c;
+}
+
+.copyright div{
+    margin-right: 2rem;
+}
+
+.copyright select{
+    outline: none;
+    border: 1px solid #fafafa;
+}
+
+@media (max-width: 875px){
+    body{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .instagram-phone{
+        display: none;
+    }
+
+    .instagram-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .instagram-log{
+        justify-content: center;
+        width: 100%;
+    }
 }
